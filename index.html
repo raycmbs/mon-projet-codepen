@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - jeu</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu d'Énigmes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jeu d'Énigmes</h1>
+        <div id="enigme-container">
+            <img id="enigme-image" src="" alt="Illustration de l'énigme" style="display:none;">
+            <p id="enigme">Cliquez sur "Commencer" pour démarrer le jeu !</p>
+            <input type="text" id="reponse" placeholder="Tapez votre réponse ici...">
+            <button onclick="verifierReponse()">Soumettre</button>
+            <p id="resultat"></p>
+            <button id="btn-suivant" onclick="suivant()" style="display: none;">Énigme Suivante</button>
+        </div>
+        <button id="commencer-btn" onclick="commencer()">Commencer</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
